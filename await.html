@@ -1,0 +1,9 @@
+
+<button id="btn">wikipage</button>
+<div id="output"></div>
+<script>
+    btn.addEventListener("click" , async () => {
+        let d = await(await fetch("https://en.wikipedia.org/api/rest_v1/page/summary/Rakshit_Shetty")).json();
+        output.innerHTML = `<img src="${d.thumbnail.source}" width="200" style="display:block; margin:auto;"><p style= font-size:18px;text-align:center;">${d.extract}</p>`;
+    });
+</script>

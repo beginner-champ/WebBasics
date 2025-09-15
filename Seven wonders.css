@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color:white;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+        div {
+            margin:20px;
+            border:0.5px solid black;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="SevenWonders">
+           <h1 style="color:navy;font-family:'Times New Roman',Times,serif">Seven ancient wonders of the world</h1>
+           <div>        
+        <h3 style="color:violet;font-family:Cambria, Cochin, Georgia">Great Pyramid of Giza</h3>
+    </div>
+    <div>
+        <h3 style="color:violet;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Hanging Gardens of Babylon</h3>
+</div>
+    <div>
+        <h3 style="color:violet;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Statue of Zeus at Olympia</h3>
+    </div>
+    <div>
+        <h3 style="color:violet;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Temple of Artemis at Ephesus</h3>
+    </div> 
+    <div>
+        <h3 style="color:violet;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Mausoleum at Halicarnassus</h3>
+ </div>
+<div>
+        <h3 style="color:violet;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Colossus of Rhodes</h3>
+                    </div>
+    <div>
+        <h3 style="color:violet;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Lighthouse of Alexandria</h3>
+    </div>
+</section>
+</body>
+</html>

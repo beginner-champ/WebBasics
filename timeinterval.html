@@ -1,0 +1,17 @@
+<script>
+  let num = 1;
+  let limit = 20;
+
+  let interval = setInterval(() => {
+    if (num % 2 === 0) {
+      console.log(num + " is Even");
+    } else {
+      console.log(num + " is Odd");
+    }
+    if (num>= limit){
+      clearInterval(interval);
+      console.log("Finished up to" + limit);
+    }
+    num++;
+  },1000);
+</script>

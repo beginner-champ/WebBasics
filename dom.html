@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click Example</title>
+    <style>
+        .website-background {
+            background-image:url("background.png");
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+            opacity:0.7; 
+        }
+        .body{
+            font-family:'Roboto',sans-serif;
+            color:'orchid';
+        }
+        h1{
+            color:#00FFFF;
+            font-weight:100;
+        }
+        p{
+            font-size: 30px ;
+            text-align: center;
+            color:#FFFFFF;
+            padding : 30px;
+        }
+    </style>
+</head>
+<body class="website-background">
+    
+    
+    <h1 id="Heading">java</h1>
+    <img id="myImage" src="D:\PythonFullStack\myImage.png" alt="Descriptive Image" width="300">
+    <p id="intro" style=" color:white;"> Java is a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible. Developed by James Gosling at Sun Microsystems (now owned by Oracle), its initial release was in 1995. One of Java's core philosophies is "Write Once, Run Anywhere" (WORA), which means compiled Java code can run on any platform that has a Java Virtual Machine (JVM), regardless of the underlying computer architecture. This cross-platform compatibility is a major feature. Other key features include its object-oriented nature, automatic memory management (garbage collection), and strong security. Java is widely used for developing a vast range of applications, including enterprise-level software, mobile apps (especially for Android), web applications, and embedded systems. However, its significant memory consumption and slower execution speed compared to languages like C++ are often cited as its main drawbacks.</p>
+    <a id="myLink" href="https://www.java.com/en/download/help/java_javascript.html" style = "color: #FFBF00;">Click here to learn more...</a>
+
+    <script>
+        const myImage = document.getElementById("myImage");
+        myImage.style.display = 'block';
+        myImage.style.margin = '0 auto';
+    
+        
+        const myHeading = document.getElementById("Heading");
+        myHeading.textContent = "JAVASCRIPT";
+        myHeading.style.color = 'slate gray';
+        myHeading.style.textAlign = 'center';
+        myHeading.style.textDecoration = 'underline';
+        myHeading.style.fontFamily = 'Times New Roman';
+        myHeading.style.fontSize = '70px'; 
+
+        const intro = document.getElementById("intro");
+        intro.textContent = "JavaScript is a high-level, multi-paradigm programming language and a core technology of the web, created by Brendan Eich at Netscape in 1995 to add interactivity to web pages. It's a very versatile language, used for both front-end (browser) and back-end (server) development, and is known for its asynchronous capabilities, allowing it to handle tasks without blocking the main program. It's also lightweight and relatively easy to learn, making it popular for creating web and mobile apps, as well as browser-based games. However, it does have drawbacks, including potential security risks if not used correctly and a single-threaded nature that can be a limitation for very complex, CPU-intensive tasks.";
+        intro.style.fontSize = '30px';
+        intro.style.textAlign = 'center';
+        intro.style.color = '#F5F5F5';
+        intro.style.padding = '25px';
+         
+
+         const myLink = document.getElementById("myLink");
+        myLink.display = 'block';
+        myLink.style.textAlign = 'center';
+        myLink.style.marginBottom = '20px';
+        myLink.style.fontSize = '30px';
+        myLink.style.textDecoration = 'none';
+</script>
+</body>
+</html>
