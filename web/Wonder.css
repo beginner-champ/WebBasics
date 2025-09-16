@@ -1,0 +1,45 @@
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 20%;
+    border: 3px solid white;
+    border-width: 5px;
+    position: relative;
+    }
+    body{
+        background-image: "C:\Users\Ravi9\Desktop\Downloads\Gemini_Generated_Image_sg9hf5sg9hf5sg9h.png";
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        }
+        
+p{
+    text-align: center;
+    font-family: 'Lucida Sans','Lucida sans Regular','Lucida Grande','Lucida sans Unicode',Geneva, Verdana, sans-serif;
+
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight:500;
+
+}
+h3{
+    text-decoration:underline;
+    font-size:40px;
+    font-weight:100;
+}
+a{
+    font-weight:100;
+    font-size:20px;
+    text-decoration:none;
+}
+#intro-section{
+    padding:20px;
+    border:3px solid black;
+    margin-bottom:20px;
+}
+.highlight{
+    font-style:italic;
+    font-weight:lighter;
+}
